@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="header">
-        <div class="headerleft">Header Logo</div>
+    <div class="header darkbg sidepadding">
+        <div class="headerleft"><strong>Header Logo</strong></div>
         <div class="headerright">
-            <ul>
+            <ul class="heroSecondary">
                 <li>header link one</li>
                 <li>header link two</li>
                 <li>header link three</li>
@@ -18,49 +19,50 @@
         </div>
     </div>
     <div class="content">
-        <div class="firstpart">          
+        <div class="firstpart darkbg sidepadding">          
             <div class="firstleft">
-                <h1>This website is awesome</h1>
-                <p> This website has some subtext that goes here under the main title It's a smaller font and the color is lower contrast</p>
+                <div class="heroMain">This website is awesome</div>
+                <p class="heroSecondary"> This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
                 <button class="signup">Sign up</button>
             </div>
-            <div class="firstright" #placeholder>This is a placeholder for an image</div>
+            <div class="firstright" id="placeholder">This is a placeholder for an image</div>
         </div>
-        <div class="secondpart">
-            <h3>Some random inforamtion</h3>
-            <div class="illustrations">
+        <div class="secondpart sidepadding">
+            <h3 id="infotext">Some random information.</h3>
+            <div class="illustrations bigpadding">
                 <div class="illustration">
                     <div class="square"></div>
-                    <p>this is some subtext under an illustation or image</p>
+                    <p class="subtext">this is some subtext under an illustation or image</p>
                 </div>
                 <div class="illustration">
                     <div class="square"></div>
-                    <p>this is some subtext under an illustation or image</p>
+                    <p class="subtext">this is some subtext under an illustation or image</p>
                 </div>
                 <div class="illustration">
                     <div class="square"></div>
-                    <p>this is some subtext under an illustation or image</p>
+                    <p class="subtext">this is some subtext under an illustation or image</p>
                 </div>
                 <div class="illustration">
                     <div class="square"></div>
-                    <p>this is some subtext under an illustation or image</p>
+                    <p class="subtext">this is some subtext under an illustation or image</p>
                 </div>
             </div>
         </div>
-        <div class="thirdpart">
-            <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will aclually read it. Who knows? All I know is that it looks nice.</p>
-            <div class="quote">-Thor, God of Thunder</div>
+        <div class="thirdpart sidepadding">
+            <p id="quote" class="bigpadding">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will aclually read it. Who knows? All I know is that it looks nice.</p>
+            <div id="thor" class="bigpadding">-Thor, God of Thunder</div>
         </div>
-        <div class="fourthpart">
-            <div class="bluepart">
-                <p>Call to action! It's time!</p>
-                <p>Sign up for our product by clicking that button over there!</p>
-                <button class="signup">Sign up</button>
+        <div class="fourthpart sidepadding">
+            <div class="bluepart bigpadding">
+                <div class="leftside">
+                    <p id="call">Call to action! It's time!</p>
+                    <p>Sign up for our product by clicking that button over there!</p>
+                </div>
+                <button id="bottombutton" class="signup">Sign up</button>
             </div>
         </div>
     </div>
-
-    <div class="footer">
+    <div class="footer darkbg">
         Copyright © The Odin Project 2021
     </div>
     
